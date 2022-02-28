@@ -2,9 +2,7 @@
   "name": "@homielab/react-native-auto-scroll",
   "version": "0.0.8",
   "description": "Auto horizontal scroll any component",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/esm/index.d.ts",
+  "main": "./src/index.tsx",
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
