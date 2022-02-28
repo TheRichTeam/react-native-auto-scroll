@@ -98,7 +98,7 @@ const AutoScrolling = ({
             layout: { width, x },
           },
         }: LayoutChangeEvent) => {
-          if (!containerWidth.current || width === contentWidth.current) return;
+//           if (!containerWidth.current || width === contentWidth.current) return;
           offsetX.current.stopAnimation();
           offsetX.current.setValue(0);
           offsetX.current.setOffset(0);
