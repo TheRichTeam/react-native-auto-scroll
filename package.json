@@ -9,6 +9,7 @@
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\""
   },
   "files": [
